@@ -8,7 +8,7 @@ public class CreateDB {
     public static void main(String[] args) {
         String url = "jdbc:mysql://localhost:3306/shadab";
         String username = "root";
-        String password = "123456789";
+        String password = "1234***";
         String query = "insert into new_table values(11,'Md Shadab','MBBS','Noida',12345)";
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
